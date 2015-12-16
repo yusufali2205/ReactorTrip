@@ -98,28 +98,28 @@ public class PPS {
 		this.RTSSD2 = Selective2OutOf4.calculate(D1, D2, D3, D4);
 	}
 	
-	public boolean getRTSSA1out(){
+	public boolean toRTSSA1(){
 		return this.RTSSA1;
 	}
-	public boolean getRTSSA2out(){
+	public boolean toRTSSA2(){
 		return this.RTSSA2;
 	}
-	public boolean getRTSSB1out(){
+	public boolean toRTSSB1(){
 		return this.RTSSB1;
 	}
-	public boolean getRTSSB2out(){
+	public boolean toRTSSB2(){
 		return this.RTSSB2;
 	}
-	public boolean getRTSSC1out(){
+	public boolean toRTSSC1(){
 		return this.RTSSC1;
 	}
-	public boolean getRTSSC2out(){
+	public boolean toRTSSC2(){
 		return this.RTSSC2;
 	}
-	public boolean getRTSSD1out(){
+	public boolean toRTSSD1(){
 		return this.RTSSD1;
 	}
-	public boolean getRTSSD2out(){
+	public boolean toRTSSD2(){
 		return this.RTSSD2;
 	}
 }
